@@ -41,7 +41,7 @@ export const ProjectLink = styled("a", {
 
 export const ProjectTitle = styled(Text, {});
 
-export const Project = styled("article", {
+export const Project: any = styled("article", {
   marginTop: "4rem",
   [`&:first-child`]: {
     [`& ${ProjectTitle}:first-child`]: {
